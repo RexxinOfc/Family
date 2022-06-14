@@ -80,7 +80,7 @@ const connectionOptions = {
   auth: state,
   logger: P({ level: 'silent'}),
   version: [2, 2204, 13],
-  browser: ['Rexxin MD', 'Android', '4.1.0']
+  browser: ['Rexxin MD', 'IOS', '4.1.0']
 }
 
 global.conn = simple.makeWASocket(connectionOptions)
